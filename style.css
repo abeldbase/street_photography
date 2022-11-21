@@ -312,8 +312,11 @@ footer .menu li a:hover{
 footer p{
     color: #f02530;
     text-align: center;
+    justify-content:baseline;
+    display: inline-block;
     margin-top: 15px;
     margin-bottom: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
+
