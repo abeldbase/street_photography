@@ -109,6 +109,20 @@ button, input, select, textarea{
    text-align: center;
    background-color: rgb(157, 200, 64);
  }
+ .footer-block {
+  margin-top: 20px;
+  text-align: center;
+  font-size: large;
+  background-color: #959499;
+}
+.headhome-block {
+  margin-top: 20px;
+  color: #ccc;
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+  background-color: #959499;
+}
  button {
    width: 150px;
    padding: 10px;
