@@ -20,7 +20,9 @@
 
 
 }
-
+.front-line{
+    color: #000;
+}
 /*.logobox a{
 
     float: left;
@@ -133,8 +135,8 @@
     padding-top: var(--main-padding);
 }
 a:hover {
-    color: whitesmoke;
-    background-color: #ffffff;
+    color: rgb(14, 13, 13);
+    background-color: #0e0d0d;
     text-decoration:double;
     color: #ecb722;
 }
@@ -176,8 +178,36 @@ h2{
     font-weight: 700;
     text-transform: none;
 }
-
-
+#content1 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content2 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content3 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content4 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content5 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content6 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
 
 /* Responsive rules - apply when screen width is less than 1200px */
 

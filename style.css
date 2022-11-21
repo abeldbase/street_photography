@@ -18,7 +18,9 @@
     justify-content: space-around;
     align-items: center;
 }
-
+.front-line{
+    color: #000;
+}
 /*.logobox a{
 
     float: left;
@@ -119,8 +121,8 @@
     padding-top: var(--main-padding);
 }
 a:hover {
-    color: whitesmoke;
-    background-color: #ffffff;
+    color: rgb(8, 8, 8);
+    background-color: #070707;
     text-decoration:double;
     color: #ecb722;
 }
@@ -162,8 +164,21 @@ h2{
     font-weight: 700;
     text-transform: none;
 }
-
-
+#content1 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content2 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#content3 :hover{
+    font-size: 110%;
+    transition-property: all;
+    transition-duration: 3s;
+}
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
@@ -234,7 +249,7 @@ h2{
         position:relative;
         margin-left: 14%;
         margin-top: 39px;
-        color: #1b447f;
+        color: #0d0d0e;
         vertical-align: baseline;}
 
 
@@ -278,7 +293,7 @@ footer .footerpad li a{
     margin: 0 10px;
     display: inline-block;
     transition: 1s;
-
+    align-items: center;
 }
 footer .footerpad li a:hover{
     transform:translateY(-15px);

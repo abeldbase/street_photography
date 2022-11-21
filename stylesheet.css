@@ -50,6 +50,7 @@ h1{
     position:absolute;
     margin-left: 24%;
     margin-block: 2px;
+    color: #000;
    
   
 }
@@ -160,10 +161,10 @@ footer{
 }
 
 a:hover {
-    color: whitesmoke;
+    color: rgb(15, 15, 15);
     background-color: #444444;
     text-decoration:double;
-    color: #ecb722;
+    color: #0c0c0c;
 }
 
 #content1 :hover{
@@ -292,6 +293,7 @@ footer .footerpad, footer .menu{
 }
 footer .footerpad li, footer .menu li{
     list-style: none;
+    align-items: center;
 }
 footer .footerpad li a{
     font-size: 2em;
