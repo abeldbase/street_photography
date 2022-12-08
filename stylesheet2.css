@@ -9,20 +9,18 @@
 .topnav a {
     float:right;
     display: block;
-    color: #f02530;
+    color: #e7e779;
     text-align: right;
     padding: 18px 12px;
     text-decoration:wavy;
     text-transform: capitalize;
-    font-size: 17px;
+    font-size: 20px;
     justify-content: space-around;
     align-items: center;
 
 
 }
-.front-line{
-    color: #000;
-}
+
 /*.logobox a{
 
     float: left;
@@ -48,7 +46,7 @@
     font-weight: bold;
     text-transform: uppercase;
     font-size: 17px;
-    color: #ecb722;
+    color: #e7e779;
     text-align: center;
 }
 .gride-item-one{
@@ -72,9 +70,10 @@
     padding-top: var(--main-padding);
     text-align: center;
     justify-content: center;
-    font-size: 19px;
+    font-size: 26px;
     font-weight: bold;
     line-height: 2em;
+    color: #000;
 
 
 }
@@ -135,13 +134,52 @@
     padding-top: var(--main-padding);
 }
 a:hover {
-    color: rgb(14, 13, 13);
-    background-color: #0e0d0d;
+    color: whitesmoke;
+    background-color: #ffffff;
     text-decoration:double;
     color: #ecb722;
 }
 
-
+.gride-item-three :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-four :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-nine :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-ten :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-five :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-six :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-seven :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
+.gride-item-eight :hover{
+    font-size: 110%;
+    transition-property: all; 
+    transition-duration: 3s;
+}
 .topnav .icon {
     display: none;
 }
@@ -178,36 +216,8 @@ h2{
     font-weight: 700;
     text-transform: none;
 }
-#content1 :hover{
-    font-size: 110%;
-    transition-property: all;
-    transition-duration: 3s;
-}
-#content2 :hover{
-    font-size: 110%;
-    transition-property: all;
-    transition-duration: 3s;
-}
-#content3 :hover{
-    font-size: 110%;
-    transition-property: all;
-    transition-duration: 3s;
-}
-#content4 :hover{
-    font-size: 110%;
-    transition-property: all;
-    transition-duration: 3s;
-}
-#content5 :hover{
-    font-size: 110%;
-    transition-property: all;
-    transition-duration: 3s;
-}
-#content6 :hover{
-    font-size: 110%;
-    transition-property: all;
-    transition-duration: 3s;
-}
+
+
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
